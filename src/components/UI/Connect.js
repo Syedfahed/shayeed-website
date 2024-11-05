@@ -7,7 +7,7 @@ const Connect = () => {
       <div className="flex justify-center gap-4 items-center flex-wrap py-3">
         <div>
           <Image
-            src="/images/connect.jfif"
+            src="/images/connect.webp"
             width={200}
             height={100}
             alt="connect"
