@@ -1,5 +1,3 @@
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -58,10 +56,12 @@ const NavBar = () => {
             onClick={toggleMenu}
             className="text-white focus:outline-none"
           >
-            <FontAwesomeIcon
-              size="xl"
+            <Image
+              width={10}
+              height={10}
+              alt="menu"
               className="text-white"
-              icon={isOpen ? faTimes : faBars}
+              src={isOpen ? '/images/x.svg' : '/images/bar.svg'}
             />
           </button>
         </div>
