@@ -1,0 +1,5 @@
+export * from './NavBar'
+export * from './Banner'
+export * from './OurServices'
+export * from './CustomerReviews'
+export * from './Connect'
