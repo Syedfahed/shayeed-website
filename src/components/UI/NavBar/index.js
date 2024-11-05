@@ -57,11 +57,11 @@ const NavBar = () => {
             className="text-white focus:outline-none"
           >
             <Image
-              width={10}
-              height={10}
+              width={20}
+              height={20}
               alt="menu"
-              className="text-white"
-              src={isOpen ? '/images/x.svg' : '/images/bar.svg'}
+              className="text-white fill-white"
+              src={isOpen ? '/images/xmark-solid.svg' : '/images/bars-solid.svg'}
             />
           </button>
         </div>
